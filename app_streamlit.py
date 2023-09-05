@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
-pickle_in = open('\Scripts\streamlit\classifier.pkl','rb')
+pickle_in = open('classifier.pkl','rb')
 model = pickle.load(pickle_in)
 
 # Título
